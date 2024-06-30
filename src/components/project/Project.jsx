@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
-import { ComputerCanvas } from '../threejs/ComputerCanvas'
 import { ProjectCard } from './ProjectCard'
 import { CorgiCanvas } from '../threejs/CorgiCanvas'
 import { ShibaCanvas } from '../threejs/ShibaCanvas'
