@@ -82,12 +82,18 @@ export const Experiences = () => {
                 <div style={{ marginTop: "-50px" }}>
                     <Line src="./img/line.png" />
                     <Work
-                        title="Technical Solutions | Front-end Developer"
-                        company="TDCX Malaysia"
-                        time="08/2022 - Current (1 year 8 months)"
-                        desc="Description:
-                        To assist sales teams in the region with lead deployment, tag implementation, integration enablement, and customer troubleshooting for online ad campaigns.
-                        Effectively consult or educate customers on advanced fixes (Eliminate render-blocking JavaScript and CSS to avoid page delays and redirects.)"
+                        position="left"
+                        title="Front-end Developer | Technical Solutions Specialist"
+                        company="TDCX | onsite Malaysia"
+                        time="09/2022 - Current"
+                        projectDes={{
+                            des: "Delivered technical solutions for a Google project: Worked as a vendor, providing technical expertise and solutions for a specific Google project.",
+                            res: [
+                                "Customized Front-End Solutions: Provided technical guidance and solutions. This included analyzing website code and helping them implement custom code snippets following Google's best practices.",
+                                "Collaborated with internal teams: Partnered with Google's internal teams to ensure successful implementation and integration of solutions."
+                            ]
+                        }}
+
                     />
                 </div>
 
@@ -96,10 +102,18 @@ export const Experiences = () => {
                 <div>
                     <Line src="./img/line.png" />
                     <Work
+                        position="left"
                         title="Fullstack Developer | Fresher"
-                        company="ETOPVN"
-                        time="05/2020 - 08/2020 (3 months)"
-                        desc="Building a project management website for GitHub Issues, using Angular for the Front-end and Nest JS with PostgreSQL for the Back-end"
+                        company="ETOP | Vietnam"
+                        time="07/2020 - 10/2020"
+                        projectDes={{
+                            des: "Developed a project management website for GitHub Issues.",
+                            res: [
+                                "Front-End: Angular framework for a user-friendly and interactive interface.",
+                                "Back-End: NestJS for efficient server-side logic and API development.",
+                                "Database: PostgreSQL to ensure secure and scalable data storage.",
+                            ]
+                        }}
                     />
                 </div>
             </ContentLeft>
@@ -108,15 +122,17 @@ export const Experiences = () => {
                 <div>
                     <Line src="./img/line.png" />
                     <Work 
-                        title="Software Engineer | Front-end Developer"
-                        company="TMA Solutions"
-                        time="07/2020 - 07/2022 (2 years)"
-                        desc="Description: Build a website to manage, analyze, export reports and configure network devices.
-                            Responsibilities:
-                            Design the user interface, create a mockup based on the requirements, 
-                            and implement the solution accordingly.
-                            Fix bugs and maintain the website
-                            Research new library/framework to improve performance"
+                        position="right"
+                        title="Software Engineer"
+                        company="TMA Solutions | Vietnam"
+                        time="11/2020 - 09/2022"
+                        projectDes={{
+                            des: "Developed a web application for managing network devices. This application allows users to: manage network devices, analyze data, and export reports.",
+                            res: [
+                                "Front-End Development: Designed a user-friendly interface for managing network devices, Created mockups based on user requirements to ensure a positive user experience and Implemented the user interface using appropriate front-end technologies.",
+                                "Maintenance and Optimization: Fixed bugs and maintained the website's functionality and Researched new libraries/frameworks to improve website performance."
+                            ]
+                        }}
                     />
                 </div>
 
@@ -125,10 +141,13 @@ export const Experiences = () => {
                 <div>
                     <Line src="./img/line.png" />
                     <Work 
+                        position="right"
                         title="Website Developer | Intern"
-                        company="HVCG Software"
-                        time="06/2019 - 08/2019 (2 months)"
-                        desc="Building a foundational understanding of website development through HTML, CSS, and JavaScript"
+                        company="HVCG Software | Vietnam"
+                        time="07/2019 - 09/2019"
+                        projectDes={{
+                            des: "Building a foundational understanding of website development through HTML5, CSS3, and JavaScript.",
+                        }}
                     />
                 </div>
             </ContentRight>

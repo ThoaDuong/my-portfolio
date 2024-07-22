@@ -45,7 +45,7 @@ const SubTitle = styled.div`
 `
 const Info = styled.div`
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -53,9 +53,9 @@ const Info = styled.div`
 `
 const Credit = styled.div`
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
     right: 10px;
-    font-size: 9px;
+    font-size: 10px;
     font-style: italic;
 `
 const Link = styled.a`

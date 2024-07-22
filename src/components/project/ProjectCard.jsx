@@ -70,7 +70,6 @@ export const ProjectCard = ({ name, desc, mainFunction, link }) => {
                 </Desc>
                 <LinkContext>
                     <Link target="_blank" href={link.live ? link.live : '#'}>Live</Link>
-                    <Link target="_blank" href={link.caseStudy ? link.caseStudy : '#'}>Case Study</Link>
                     <Link target="_blank" href={link.gitFE ? link.gitFE : '#'}>Github FE</Link>
                     <Link target="_blank" href={link.gitBE ? link.gitBE : '#'}>Github BE</Link>
                 </LinkContext>

@@ -23,16 +23,6 @@ const Title = styled.h3`
     font-size: 24px;
     text-align: center;
 `
-const Card = styled.div`
-    /* position: relative; */
-`
-const CardUp = styled.div`
-    /* position: absolute; */
-`
-const CardDown = styled.div`
-    /* position: absolute; */
-
-`
 const BoxCard = styled.div`
     width: 40%;
     @media only screen and (max-width: 	1024px) {
@@ -67,7 +57,6 @@ export const Project = () => {
                         ]}
                         link={{
                             live: "https://tlearn-voca.netlify.app/",
-                            caseStudy: "",
                             gitFE: "https://github.com/ThoaDuong/tlearn_client",
                             gitBE: "https://github.com/ThoaDuong/tlearn_server"
                         }}
@@ -90,7 +79,6 @@ export const Project = () => {
                         ]}
                         link={{
                             live: "https://lootoo.netlify.app/",
-                            caseStudy: "",
                             gitFE: "https://github.com/ThoaDuong/lucky-socketio-client",
                             gitBE: "https://github.com/ThoaDuong/lucky-socketio-server"
                         }}

@@ -117,13 +117,17 @@ export const About = () => {
 									<SCard>Redux / RTK</SCard>
 									<SCard>VueJS</SCard>
 									<SCard>VueX / Pinia</SCard>
+									<SCard>Bootstrap 4</SCard>
+									<SCard>Material UI</SCard>
 								</SLeft>
 								<SRight>
+									<SCard>TailwindCSS</SCard>
+									<SCard>SASS / SCSS / LESS</SCard>
 									<SCard>Javascript</SCard>
 									<SCard>NodeJS / ExpressJS</SCard>
 									<SCard>MongoDB / Mongoose</SCard>
-									<SCard>Git/Github/Gitlab</SCard>
-									<SCard>Jira/Confluence</SCard>
+									<SCard>Git / Github / Gitlab</SCard>
+									<SCard>Jira / Confluence</SCard>
 								</SRight>
 								
 							</Skill>
