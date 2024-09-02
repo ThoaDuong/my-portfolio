@@ -50,8 +50,8 @@ export const Work = ({ title, company, time, position, projectDes }) => {
             <div>
                 <TitleDesc>Responsibilities</TitleDesc>
                 <ResList dir={position === 'left' ? 'rtl' : 'ltr'}>
-                    {projectDes.res.map(item => 
-                        <ResListItem> {item} </ResListItem>  
+                    {projectDes.res.map((item, index) => 
+                        <ResListItem key={index}> {item} </ResListItem>  
                     )}
                 </ResList>
             </div>

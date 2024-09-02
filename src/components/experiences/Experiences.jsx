@@ -87,10 +87,10 @@ export const Experiences = () => {
                         company="TDCX | onsite Malaysia"
                         time="09/2022 - Current"
                         projectDes={{
-                            des: "Delivered technical solutions for a Google project: Worked as a vendor, providing technical expertise and solutions for a specific Google project.",
+                            des: "Delivered technical solutions for a Google project: Worked as a vendor, providing technical expertise and solutions for a specific Google project",
                             res: [
-                                "Customized Front-End Solutions: Provided technical guidance and solutions. This included analyzing website code and helping them implement custom code snippets following Google's best practices.",
-                                "Collaborated with internal teams: Partnered with Google's internal teams to ensure successful implementation and integration of solutions."
+                                "Customized Front-End Solutions: Provided technical guidance and solutions. This included analyzing website code and helping them implement custom code snippets following Google's best practices",
+                                "Collaborated with internal teams: Partnered with Google's internal teams to ensure successful implementation and integration of solutions"
                             ]
                         }}
 
@@ -107,11 +107,11 @@ export const Experiences = () => {
                         company="ETOP | Vietnam"
                         time="07/2020 - 10/2020"
                         projectDes={{
-                            des: "Developed a project management website for GitHub Issues.",
+                            des: "Developed a project management website for GitHub Issues",
                             res: [
-                                "Front-End: Angular framework for a user-friendly and interactive interface.",
-                                "Back-End: NestJS for efficient server-side logic and API development.",
-                                "Database: PostgreSQL to ensure secure and scalable data storage.",
+                                "Front-End: Angular framework for a user-friendly and interactive interface",
+                                "Back-End: NestJS for efficient server-side logic and API development",
+                                "Database: PostgreSQL to ensure secure and scalable data storage",
                             ]
                         }}
                     />
@@ -127,10 +127,10 @@ export const Experiences = () => {
                         company="TMA Solutions | Vietnam"
                         time="11/2020 - 09/2022"
                         projectDes={{
-                            des: "Developed a web application for managing network devices. This application allows users to: manage network devices, analyze data, and export reports.",
+                            des: "Developed a web application for managing network devices. This application allows users to: manage network devices, analyze data, and export reports",
                             res: [
-                                "Front-End Development: Designed a user-friendly interface for managing network devices, Created mockups based on user requirements to ensure a positive user experience and Implemented the user interface using appropriate front-end technologies.",
-                                "Maintenance and Optimization: Fixed bugs and maintained the website's functionality and Researched new libraries/frameworks to improve website performance."
+                                "Front-End Development: Designed a user-friendly interface for managing network devices, Created mockups based on user requirements to ensure a positive user experience and Implemented the user interface using appropriate front-end technologies",
+                                "Maintenance and Optimization: Fixed bugs and maintained the website's functionality and Researched new libraries/frameworks to improve website performance"
                             ]
                         }}
                     />
@@ -146,7 +146,7 @@ export const Experiences = () => {
                         company="HVCG Software | Vietnam"
                         time="07/2019 - 09/2019"
                         projectDes={{
-                            des: "Building a foundational understanding of website development through HTML5, CSS3, and JavaScript.",
+                            des: "Building a foundational understanding of website development through HTML5, CSS3, and JavaScript",
                         }}
                     />
                 </div>
