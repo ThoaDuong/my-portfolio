@@ -141,7 +141,7 @@ export const Contact = () => {
                 <Left>
                     <Form ref={formRef} onSubmit={handleSubmit}>
                         <Title>Contact Me</Title>
-                        <SubTitle>Please feel free to leave me a email anytime!</SubTitle>
+                        <SubTitle>Please feel free to leave me a message anytime!</SubTitle>
 
                         <Input placeholder='Name' name='name' 
                             value={name} onChange={(e)=> setName(e.target.value)}
