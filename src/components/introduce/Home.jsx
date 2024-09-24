@@ -67,9 +67,6 @@ const TextContent = styled.div`
 const Line = styled.img`
 	height: 5px;
 `
-const Subtitle = styled.div`
-	color: #da4ea2;
-`
 const Desc = styled.div`
 	font-size: 18px;
 	color: lightgray;
@@ -122,13 +119,13 @@ export const Home = () => {
 					<Text>a website developer</Text>
 					<TextContent>
 						<Line src="./img/line.png" />
-						<Subtitle>What I Do</Subtitle>
+						<div className='color-green'>What I Do</div>
 					</TextContent>
 					<Desc>
 						with a passion for creating engaging and user-friendly web experiences.
 						I specialize in crafting responsive, dynamic, and visually appealing websites. Let's build something amazing together!
 					</Desc>
-					<a className='pink-link-btn' href='#about'>Learn More</a>
+					<a className='common-link' href='#about'>Learn More</a>
 				</Left>
 				<Right>
 					{/* 3d model */}		

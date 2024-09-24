@@ -41,6 +41,7 @@ const Right = styled.div`
 	@media only screen and (max-width: 	1024px) {
 		width: 100%;
 		align-items: center;
+		padding: 20px;
     }
 `
 const Title = styled.h1`
@@ -57,9 +58,6 @@ const TextContent = styled.div`
 `
 const Line = styled.img`
 	height: 5px;
-`
-const Subtitle = styled.div`
-	color: var(--pink);
 `
 const Desc = styled.div`
 	font-size: 18px;
@@ -101,14 +99,16 @@ export const About = () => {
 					</Title>
 					<TextContent>
 						<Line src="./img/line.png" />
-						<Subtitle>Who I Am</Subtitle>
+						<div className='color-green'>Who I Am</div>
 					</TextContent>
 					<Desc>
 						<div>
-							I graduated from the <strong>University of Information Technology - Vietnam National University</strong> <br/>
-							I specialize in building web applications using the MERN and MEVN stacks
+							Motivated Web Developer with 3+ Years of Experience. Highly skilled web developer with expertise in both MERN and MEVN stacks. 
+							Possesses a proven track record of success in building dynamic web applications across diverse industries. 
+							Proven ability to thrive in both local Vietnamese and international work environments (onsite experience in Malaysia). 
+							Eager learner with a strong desire to continuously adapt and develop new skill-sets to meet evolving project requirements.
 						</div>
-						<div>
+						<div style={{ display: 'none' }}>
 							<STitle>My Skills</STitle>
 							<Skill>
 								<SLeft>
@@ -133,7 +133,7 @@ export const About = () => {
 							</Skill>
 						</div>
 					</Desc>
-					<a className='pink-link-btn' href='#experiences'>See my works</a>
+					<a className='common-link' href='#skills'>See my skills</a>
 				</Right>
 			</Container>
 		</Section>

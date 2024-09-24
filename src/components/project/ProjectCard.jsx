@@ -42,7 +42,6 @@ const ListItem = styled.li`
     }
 `
 const Link = styled.a`
-    /* list-style: none; */
     text-decoration: none;
     border-bottom: 1px solid #0aca44;
     font-weight: bold;

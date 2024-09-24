@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react'
 import styled from 'styled-components'
-import MapChart from './MapChart'
 import emailjs from '@emailjs/browser'
+import { CorgiCanvas } from '../threejs/CorgiCanvas'
+import { ShibaCanvas } from '../threejs/ShibaCanvas'
 
 const Section = styled.div`
     height: 100vh;
@@ -12,19 +13,31 @@ const Container = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 50px;
 `
 const Left = styled.div`
-    /* flex: 1; */
     width: 40%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     @media only screen and (max-width: 	1024px) {
 		width: 100%;
     }
 `
+const BoxObject = styled.div`
+    width: 15%;
+    @media only screen and (max-width: 	1024px) {
+		display: none;
+    }
+`
+// const Right = styled.div`
+//     /* flex: 1; */
+//     width: 40%;
+//     @media only screen and (max-width: 	1024px) {
+// 		display: none;
+//     }
+// `
 const Form = styled.form`
     width: 500px;
     display: flex;
@@ -43,31 +56,12 @@ const SubTitle = styled.div`
     font-size: 16px;
     font-style: italic;
 `
-const Info = styled.div`
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 20px;
-`
 const Credit = styled.div`
     position: absolute;
     bottom: 10px;
     right: 10px;
-    font-size: 10px;
+    font-size: 11px;
     font-style: italic;
-`
-const Link = styled.a`
-    border-radius: 50%;
-    /* background-color: #da75e4; */
-    background-color: var(--pink);
-    padding: 7px 5px 5px 5px;
-
-`
-const Img = styled.img`
-    width: 40px;
-    height: 35px;
 `
 const Input = styled.input`
     padding: 15px 20px;
@@ -83,18 +77,16 @@ const TextArea = styled.textarea`
 `
 const Button = styled.button`
     padding: 15px 20px;
-    background-color: var(--pink);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
+    border: 1px solid var(--green);
+    background-color: transparent;
+    color: var(--green);
+    border-radius: 30px;
     cursor: pointer;
-`
-const Right = styled.div`
-    /* flex: 1; */
-    width: 40%;
-    @media only screen and (max-width: 	1024px) {
-		display: none;
+    transition-delay: 0.2s;
+    &:hover{
+        color: white;
+        background-color:#518f00;
+        border: 1px solid white;
     }
 `
 
@@ -143,11 +135,13 @@ export const Contact = () => {
     return (
         <Section id='contact'>
             <Container className='container'>
+                <BoxObject>
+                    <CorgiCanvas/>
+                </BoxObject>
                 <Left>
-                    
                     <Form ref={formRef} onSubmit={handleSubmit}>
                         <Title>Contact Me</Title>
-                        <SubTitle>Please feel free to leave me a message anytime!</SubTitle>
+                        <SubTitle>Please feel free to leave me a email anytime!</SubTitle>
 
                         <Input placeholder='Name' name='name' 
                             value={name} onChange={(e)=> setName(e.target.value)}
@@ -167,21 +161,10 @@ export const Contact = () => {
                         </div>}
                     </Form>
                 </Left>
-                <Right>
-                    <MapChart/>
-                </Right>
+                <BoxObject>
+                    <ShibaCanvas/>
+                </BoxObject>
             </Container>
-            <Info>
-                <Link href='mailto:kimthoa2598@gmail.com' target='_blank'>
-                    <Img src="https://img.icons8.com/clouds/100/new-post.png" alt="new-post"/>
-                </Link>
-                <Link href='https://www.linkedin.com/in/thoa-duong-8a15161bb' target='_blank'>
-                    <Img src="https://img.icons8.com/clouds/100/linkedin.png" alt="linkedin"/>
-                </Link>
-                <Link href='https://github.com/ThoaDuong' target='_blank'>
-                    <Img src="https://img.icons8.com/clouds/100/github.png" alt="linkedin"/>
-                </Link>
-            </Info>
             <Credit>The prototype is based on a concept by Lama Dev</Credit>
         </Section>
     )
