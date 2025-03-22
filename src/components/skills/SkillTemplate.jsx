@@ -72,7 +72,7 @@ export const SkillTemplate = () => {
                 />
                 <SkillItemRectangle
                     title='vuex & pinia'
-                    img='https://miro.medium.com/v2/resize:fit:999/1*wumM818TmrkBDMCqXOfhww.png'
+                    img='https://www.adambiro.com/wp-content/uploads/2022/05/vue_and_pinia.jpg'
                 />
                 <SkillItem
                     title='react js'

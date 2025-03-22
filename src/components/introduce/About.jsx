@@ -103,10 +103,7 @@ export const About = () => {
 					</TextContent>
 					<Desc>
 						<div>
-							Motivated Web Developer with 3+ Years of Experience. Highly skilled web developer with expertise in both MERN and MEVN stacks. 
-							Possesses a proven track record of success in building dynamic web applications across diverse industries. 
-							Proven ability to thrive in both local Vietnamese and international work environments (onsite experience in Malaysia). 
-							Eager learner with a strong desire to continuously adapt and develop new skill-sets to meet evolving project requirements.
+							Front-End Developer with 4+ years of experience specializing in Angular, with additional proficiency in Vue, React, and basic Node.js with MongoDB. Passionate about building scalable, high-performance web applications and optimizing user experiences. Strong background in collaborating with international teams to deliver effective and modern web solutions.
 						</div>
 						<div style={{ display: 'none' }}>
 							<STitle>My Skills</STitle>
