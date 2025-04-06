@@ -75,7 +75,7 @@ export const Navbar = () => {
             </Links>
             <Icons>
                 {/* <Icon src="./img/search.png" /> */}
-                <a className='common-link' href='https://www.linkedin.com/in/thoa-duong-8a15161bb' target='_blank'>Let's Connect</a>
+                <a className='common-link' href='https://www.linkedin.com/in/thoaduong' target='_blank'>Let's Connect</a>
             </Icons>
         </Container>
     </Section>

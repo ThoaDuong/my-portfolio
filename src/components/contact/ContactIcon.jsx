@@ -31,7 +31,7 @@ export const ContactIcon = () => {
             <Link href='mailto:kimthoa2598@gmail.com' target='_blank'>
                 <Img src="https://img.icons8.com/sf-black-filled/64/new-post.png" alt="new-post"/>
             </Link>
-            <Link href='https://www.linkedin.com/in/thoa-duong-8a15161bb' target='_blank'>
+            <Link href='https://www.linkedin.com/in/thoaduong' target='_blank'>
                 <Img src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/>
             </Link>
             <Link href='https://github.com/ThoaDuong' target='_blank'>

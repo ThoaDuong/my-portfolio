@@ -52,7 +52,7 @@ export const SkillTemplate = () => {
                 /> */}
                 <SkillItemRectangle
                     title='html5 & css3'
-                    img='https://www.webstudiotraining.co.uk/images/html5-css3.png'
+                    img='./img/skills/html5-css3.png'
                 />
                 <SkillItem
                     title='javascript'
@@ -72,7 +72,7 @@ export const SkillTemplate = () => {
                 />
                 <SkillItemRectangle
                     title='vuex & pinia'
-                    img='https://www.adambiro.com/wp-content/uploads/2022/05/vue_and_pinia.jpg'
+                    img='./img/skills/vuex&pinia.png'
                 />
                 <SkillItem
                     title='react js'
@@ -101,11 +101,11 @@ export const SkillTemplate = () => {
                 />
                 <SkillItem
                     title='material UI'
-                    img='https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/6aecc665-9f30-4dc7-bacc-880d8e66c7bb.png'
+                    img='./img/skills/material.png'
                 />
                 <SkillItemRectangle 
                     title='sass, scss & less'
-                    img='https://media.licdn.com/dms/image/C4E12AQGybIFKabrxEw/article-cover_image-shrink_600_2000/0/1520066771050?e=2147483647&v=beta&t=nZAvjQxDJQYn46XXjtrjT5KclahiRBfk3uQGdCvaO1k'
+                    img='./img/skills/sass&less.jpg'
                 />
                 <SkillItem
                     title='git & github'
@@ -117,7 +117,7 @@ export const SkillTemplate = () => {
                 /> */}
                 <SkillItemRectangle
                     title='jira & confluence'
-                    img='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAkumGIlSR_3-c_lNw-6OFo7mSIDRou8N0rQ&s'
+                    img='./img/skills/jira.png'
                 />
             </Container>
         </Section>
